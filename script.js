@@ -40,6 +40,10 @@ copyButton.addEventListener("click", async () => {
 
 // クリア
 clearButton.addEventListener("click", () => {
+
+    if (textInput.value.length < 4) {
+        return;
+    }
     lastClearedText = textInput.value;
 
     textInput.value = "";
