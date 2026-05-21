@@ -35,3 +35,15 @@ textarea {
 .info p {
     margin: 8px 0;
 }
+
+.buttons {
+    margin-top: 10px;
+    display: flex;
+    gap: 10px;
+}
+
+button {
+    padding: 8px 14px;
+    font-size: 14px;
+    cursor: pointer;
+}
